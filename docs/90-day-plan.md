@@ -102,6 +102,7 @@ Deliver production-ready models and data pipelines to serve the first version of
 
 - **Meet the other half of the engineering team in 1:1s.**  
 - **Meet with Joey multiple times as needed** to understand current work done, pipeline design and tooling for behavioral predictions and build on top of that.
+- **Prepare a presentation for the ENgineering team explaining the NUtracheck data taxonomy**  
 - Deep dive into the **Behavioral Predictions API PRD**. Understand the contract: how models are versioned, how predictions are typed (`value_type`), and how they are retrieved synchronously and asynchronously.
 - **Improve Model Performance** for the existing session churn model (30-day app opens) and the send_time_window model:
   - Define performance metrics
