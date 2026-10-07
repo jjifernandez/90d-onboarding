@@ -40,7 +40,7 @@ flowchart TD
         direction TB
         W1["Week 1<br/>• Dev environment & access<br/>• First code check-in"]
         M1["Month 1<br/>• Improved Session Churn model<br/>• Improved Send Time Window model<br/>• Presentation to Eng/Product/Biz"]
-        M2["Month 2<br/>• Inference endpoint (SageMaker)<br/>• Feasibility demos & findings<br/>• Strategic recommendation<br/>• Company-wide Learn & Share"]
+        M2["Month 2<br/>• Inference endpoint (SageMaker)<br/>• Feasibility demos & findings<br/>• Mandatory sprint process & sandbox stability reading<br/>• Strategic recommendation<br/>• Company-wide Learn & Share"]
         M3["Month 3<br/>• Churn Reason Surfacing backend<br/>• Initial implementation of priority model"]
         
         W1 --> M1 --> M2 --> M3
@@ -140,6 +140,9 @@ Evaluate the feasibility and performance of App-Feature Intelligence based churn
 - Collaborate with the Data Platform engineer (Joey, if we are not able to hire by then) to figure out offline and online feature stores.
 - Design and implement async inference with SageMaker workers.
 - Design and implement runtime inference.
+- **Mandatory reading:**
+  - [Engineering Sprint Process](https://github.com/localytics/engineering-playbook/blob/main/delivery/sprint-process.md)
+  - [Sandbox Deployment and Stability Conventions](https://github.com/localytics/engineering-playbook/blob/main/workflow/sandbox-and-stability.md)
 
 **Week 6 - App-Feature Intelligence Churn Models:**
 
